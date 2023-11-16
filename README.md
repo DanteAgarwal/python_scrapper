@@ -26,16 +26,16 @@ Copy code
 ```
 ## Script Details
 ### web_scraper.py:
-Imports necessary libraries: requests, BeautifulSoup, csv, re.
-Fetches HTML content from a specified URL.
-Scrapes book information (title, price, availability) using Beautiful Soup.
-Cleans the extracted data for consistency and stores it in a CSV file.
-Includes error handling for HTTP requests and exceptions.
+* Imports necessary libraries: requests, BeautifulSoup, csv, re.
+* Fetches HTML content from a specified URL.
+* Scrapes book information (title, price, availability) using Beautiful Soup.
+* Cleans the extracted data for consistency and stores it in a CSV file.
+* Includes error handling for HTTP requests and exceptions.
 ### Error Handling
-The script employs a try-except block to catch various exceptions:
-requests.exceptions.HTTPError: Handles HTTP errors (4xx or 5xx status codes).
-requests.exceptions.RequestException: Catches general request exceptions.
-Exception: Provides a catch-all for any other unexpected errors.
+* The script employs a try-except block to catch various exceptions:
+* requests.exceptions.HTTPError: Handles HTTP errors (4xx or 5xx status codes).
+* requests.exceptions.RequestException: Catches general request exceptions.
+* Exception: Provides a catch-all for any other unexpected errors.
 ## Contributing
 Contributions to improve or extend this project are welcome! Fork the repository, make your changes, and submit a pull request.
 
